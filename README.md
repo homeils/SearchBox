@@ -1,7 +1,7 @@
 # SearchBox - 自定义搜索框
 >> 使用安卓原生控件组合制作的搜索框。支持设置左边图标、右边图标及提示文本，抛出右边图标方法，获取搜索框内容方法，具有清空功能。目前搜索框的字体格式默
-认（个人觉得这样看着比较舒服，就懒得抛出设置，有兴趣可参考源码自行修改）。布局用的是安卓Constraintlayout约束布局，特别好用的布局，极力推荐，没有引入
-约束布局依赖的记得加依赖。欢迎大家使用以及提出优化意见或Bug！
+认（个人觉得这样看着比较舒服，就懒得抛出设置，有兴趣可参考源码自行修改）。布局用的是安卓Constraintlayout约束布局，特别好用的布局，极力推荐，没有引
+入约束布局依赖的记得加依赖。欢迎大家使用以及提出优化意见或Bug！
 ## 向项目中引入依赖
 >> 在Project下的gradle中添加jitpack仓库依赖：
 ```
@@ -16,7 +16,7 @@ allprojects {
 ```
 dependencies {
     ...
-    implementation 'com.github.renoside:SearchBox:v1.1.1'
+    implementation 'com.github.renoside:SearchBox:v1.1.2'
     ...
 }
 ```
