@@ -155,14 +155,12 @@ public class SearchBox extends ConstraintLayout {
                     /**
                      * 当有文本输入时，隐藏右边图标，显示清空图标
                      */
-                    input.setPadding(10, 0, 30, 0);
                     input.setCompoundDrawables(leftIco, null, null, null);
                     clear.setVisibility(View.VISIBLE);
                 } else if (charSequence.length() == 0 || charSequence == null) {
                     /**
                      * 当文本为空时，隐藏清空图标，显示右边图标
                      */
-                    input.setPadding(10, 0, 10, 0);
                     clear.setVisibility(View.GONE);
                     input.setCompoundDrawables(leftIco, null, rightIco, null);
                 }
