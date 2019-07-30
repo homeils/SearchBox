@@ -145,13 +145,13 @@ public class SearchBox extends ConstraintLayout {
             /**
              * 变化期间的监听
              * @param charSequence 字符串集合
-             * @param i length
-             * @param i1 start
-             * @param i2 end
+             * @param i start
+             * @param i1 count
+             * @param i2 before
              */
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                if (clear.getVisibility() == View.GONE && charSequence != null) {
+                if (clear.getVisibility() == View.GONE && charSequence != null && charSequence.length() != 0) {
                     /**
                      * 当有文本输入时，隐藏右边图标，显示清空图标
                      */
